@@ -3,7 +3,6 @@
     "name": "popper",
     "version": "0.9",
 
-    "default_locale": "en",
     "description": "Like macOS's popclip!",
 
     "author": "umasoya"
