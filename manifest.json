@@ -2,8 +2,19 @@
     "manifest_version": 2,
     "name": "popper",
     "version": "0.9",
-
     "description": "Like macOS's popclip!",
+    "author": "umasoya",
 
-    "author": "umasoya"
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content.js"]
+        }
+    ],
+
+    "permissions": [
+        "<all_urls>",
+        "contextMenus",
+        "tabs"
+    ]
 }
